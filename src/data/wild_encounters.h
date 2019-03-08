@@ -36,7 +36,7 @@ const struct WildPokemon gRoute102_LandMons[] =
     {4, 4, SPECIES_POOCHYENA},
     {4, 4, SPECIES_WURMPLE},
     {3, 3, SPECIES_LOTAD},
-    {4, 4, SPECIES_LOTAD},
+    {4, 4, SPECIES_SURSKIT},
     {3, 3, SPECIES_ZIGZAGOON},
     {3, 3, SPECIES_ZIGZAGOON},
     {4, 4, SPECIES_ZIGZAGOON},
@@ -49,7 +49,7 @@ const struct WildPokemonInfo gRoute102_LandMonsInfo = {20, gRoute102_LandMons};
 
 const struct WildPokemon gRoute102_WaterMons[] =
 {
-    {20, 30, SPECIES_MARILL},
+    {20, 30, SPECIES_SURSKIT},
     {10, 20, SPECIES_MARILL},
     {30, 35, SPECIES_MARILL},
     {5, 10, SPECIES_MARILL},
@@ -256,7 +256,7 @@ const struct WildPokemonInfo gRoute111_LandMonsInfo = {10, gRoute111_LandMons};
 
 const struct WildPokemon gRoute111_WaterMons[] =
 {
-    {20, 30, SPECIES_MARILL},
+    {20, 30, SPECIES_SURSKIT},
     {10, 20, SPECIES_MARILL},
     {30, 35, SPECIES_MARILL},
     {5, 10, SPECIES_MARILL},
@@ -333,13 +333,13 @@ const struct WildPokemon gRoute114_LandMons[] =
     {16, 16, SPECIES_SWABLU},
     {16, 16, SPECIES_LOTAD},
     {17, 17, SPECIES_SWABLU},
-    {15, 15, SPECIES_SWABLU},
-    {15, 15, SPECIES_LOTAD},
+    {15, 15, SPECIES_SURSKIT},
+    {15, 15, SPECIES_SEVIPER},
     {16, 16, SPECIES_LOMBRE},
     {16, 16, SPECIES_LOMBRE},
     {18, 18, SPECIES_LOMBRE},
-    {17, 17, SPECIES_SEVIPER},
-    {15, 15, SPECIES_SEVIPER},
+    {17, 17, SPECIES_ZANGOOSE},
+    {15, 15, SPECIES_ZANGOOSE},
     {17, 17, SPECIES_SEVIPER},
     {15, 15, SPECIES_NUZLEAF},
 };
@@ -348,7 +348,7 @@ const struct WildPokemonInfo gRoute114_LandMonsInfo = {20, gRoute114_LandMons};
 
 const struct WildPokemon gRoute114_WaterMons[] =
 {
-    {20, 30, SPECIES_MARILL},
+    {20, 30, SPECIES_SURSKIT},
     {10, 20, SPECIES_MARILL},
     {30, 35, SPECIES_MARILL},
     {5, 10, SPECIES_MARILL},
@@ -405,9 +405,9 @@ const struct WildPokemonInfo gRoute116_LandMonsInfo = {20, gRoute116_LandMons};
 const struct WildPokemon gRoute117_LandMons[] =
 {
     {13, 13, SPECIES_POOCHYENA},
-    {13, 13, SPECIES_ODDISH},
-    {14, 14, SPECIES_POOCHYENA},
-    {14, 14, SPECIES_ODDISH},
+    {13, 13, SPECIES_ROSELIA},
+    {14, 14, SPECIES_SURSKIT},
+    {14, 14, SPECIES_ROSELIA},
     {13, 13, SPECIES_MARILL},
     {13, 13, SPECIES_ODDISH},
     {13, 13, SPECIES_ILLUMISE},
@@ -422,7 +422,7 @@ const struct WildPokemonInfo gRoute117_LandMonsInfo = {20, gRoute117_LandMons};
 
 const struct WildPokemon gRoute117_WaterMons[] =
 {
-    {20, 30, SPECIES_MARILL},
+    {20, 30, SPECIES_SURSKIT},
     {10, 20, SPECIES_MARILL},
     {30, 35, SPECIES_MARILL},
     {5, 10, SPECIES_MARILL},
@@ -737,7 +737,7 @@ const struct WildPokemon gMeteorFalls_B1F_2R_LandMons[] =
     {30, 30, SPECIES_BAGON},
     {35, 35, SPECIES_SOLROCK},
     {35, 35, SPECIES_BAGON},
-    {37, 37, SPECIES_SOLROCK},
+    {37, 37, SPECIES_LUNATONE},
     {25, 25, SPECIES_BAGON},
     {39, 39, SPECIES_SOLROCK},
     {38, 38, SPECIES_GOLBAT},
@@ -752,9 +752,9 @@ const struct WildPokemon gMeteorFalls_B1F_2R_WaterMons[] =
 {
     {30, 35, SPECIES_GOLBAT},
     {30, 35, SPECIES_GOLBAT},
-    {25, 35, SPECIES_SOLROCK},
+    {25, 35, SPECIES_LUNATONE},
     {15, 25, SPECIES_SOLROCK},
-    {5, 15, SPECIES_SOLROCK},
+    {5, 15, SPECIES_LUNATONE},
 };
 
 const struct WildPokemonInfo gMeteorFalls_B1F_2R_WaterMonsInfo = {4, gMeteorFalls_B1F_2R_WaterMons};
@@ -1019,7 +1019,7 @@ const struct WildPokemon gRoute120_LandMons[] =
     {26, 26, SPECIES_ODDISH},
     {27, 27, SPECIES_ODDISH},
     {27, 27, SPECIES_MARILL},
-    {25, 25, SPECIES_ABSOL},
+    {25, 25, SPECIES_SURSKIT},
     {27, 27, SPECIES_ABSOL},
     {25, 25, SPECIES_KECLEON},
     {25, 25, SPECIES_SEEDOT},
@@ -1029,7 +1029,7 @@ const struct WildPokemonInfo gRoute120_LandMonsInfo = {20, gRoute120_LandMons};
 
 const struct WildPokemon gRoute120_WaterMons[] =
 {
-    {20, 30, SPECIES_MARILL},
+    {20, 30, SPECIES_SURSKIT},
     {10, 20, SPECIES_MARILL},
     {30, 35, SPECIES_MARILL},
     {5, 10, SPECIES_MARILL},
@@ -1264,9 +1264,9 @@ const struct WildPokemonInfo gMtPyre_6F_LandMonsInfo = {10, gMtPyre_6F_LandMons}
 const struct WildPokemon gMtPyre_Exterior_LandMons[] =
 {
     {27, 27, SPECIES_SHUPPET},
-    {27, 27, SPECIES_SHUPPET},
+    {27, 27, SPECIES_MEDITITE},
     {28, 28, SPECIES_SHUPPET},
-    {29, 29, SPECIES_SHUPPET},
+    {29, 29, SPECIES_MEDITITE},
     {29, 29, SPECIES_VULPIX},
     {27, 27, SPECIES_VULPIX},
     {29, 29, SPECIES_VULPIX},
@@ -2087,13 +2087,13 @@ const struct WildPokemon gVictoryRoad_B1F_LandMons[] =
     {40, 40, SPECIES_GOLBAT},
     {40, 40, SPECIES_HARIYAMA},
     {40, 40, SPECIES_LAIRON},
-    {40, 40, SPECIES_LAIRON},
+    {40, 40, SPECIES_MEDICHAM},
     {38, 38, SPECIES_GOLBAT},
     {38, 38, SPECIES_HARIYAMA},
     {42, 42, SPECIES_GOLBAT},
     {42, 42, SPECIES_HARIYAMA},
     {42, 42, SPECIES_LAIRON},
-    {38, 38, SPECIES_MAWILE},
+    {38, 38, SPECIES_MEDITITE},
     {42, 42, SPECIES_LAIRON},
     {38, 38, SPECIES_MAWILE},
 };
@@ -2116,13 +2116,13 @@ const struct WildPokemon gVictoryRoad_B2F_LandMons[] =
     {40, 40, SPECIES_GOLBAT},
     {40, 40, SPECIES_SABLEYE},
     {40, 40, SPECIES_LAIRON},
-    {40, 40, SPECIES_LAIRON},
+    {40, 40, SPECIES_MEDICHAM},
     {42, 42, SPECIES_GOLBAT},
     {42, 42, SPECIES_SABLEYE},
     {44, 44, SPECIES_GOLBAT},
     {44, 44, SPECIES_SABLEYE},
     {42, 42, SPECIES_LAIRON},
-    {42, 42, SPECIES_MAWILE},
+    {42, 42, SPECIES_MEDICHAM},
     {44, 44, SPECIES_LAIRON},
     {44, 44, SPECIES_MAWILE},
 };
@@ -2163,9 +2163,9 @@ const struct WildPokemon gMeteorFalls_1F_1R_LandMons[] =
     {18, 18, SPECIES_ZUBAT},
     {15, 15, SPECIES_ZUBAT},
     {14, 14, SPECIES_ZUBAT},
-    {16, 16, SPECIES_SOLROCK},
+    {16, 16, SPECIES_LUNATONE},
     {18, 18, SPECIES_SOLROCK},
-    {14, 14, SPECIES_SOLROCK},
+    {14, 14, SPECIES_LUNATONE},
     {19, 19, SPECIES_ZUBAT},
     {20, 20, SPECIES_ZUBAT},
     {19, 19, SPECIES_ZUBAT},
@@ -2179,7 +2179,7 @@ const struct WildPokemon gMeteorFalls_1F_1R_WaterMons[] =
     {5, 35, SPECIES_ZUBAT},
     {30, 35, SPECIES_ZUBAT},
     {25, 35, SPECIES_SOLROCK},
-    {15, 25, SPECIES_SOLROCK},
+    {15, 25, SPECIES_LUNATONE},
     {5, 15, SPECIES_SOLROCK},
 };
 
@@ -2206,9 +2206,9 @@ const struct WildPokemon gMeteorFalls_1F_2R_LandMons[] =
     {33, 33, SPECIES_GOLBAT},
     {35, 35, SPECIES_GOLBAT},
     {33, 33, SPECIES_GOLBAT},
-    {35, 35, SPECIES_SOLROCK},
+    {35, 35, SPECIES_LUNATONE},
     {33, 33, SPECIES_SOLROCK},
-    {37, 37, SPECIES_SOLROCK},
+    {37, 37, SPECIES_LUNATONE},
     {35, 35, SPECIES_GOLBAT},
     {39, 39, SPECIES_SOLROCK},
     {38, 38, SPECIES_GOLBAT},
@@ -2224,7 +2224,7 @@ const struct WildPokemon gMeteorFalls_1F_2R_WaterMons[] =
     {30, 35, SPECIES_GOLBAT},
     {30, 35, SPECIES_GOLBAT},
     {25, 35, SPECIES_SOLROCK},
-    {15, 25, SPECIES_SOLROCK},
+    {15, 25, SPECIES_LUNATONE},
     {5, 15, SPECIES_SOLROCK},
 };
 
@@ -2251,9 +2251,9 @@ const struct WildPokemon gMeteorFalls_B1F_1R_LandMons[] =
     {33, 33, SPECIES_GOLBAT},
     {35, 35, SPECIES_GOLBAT},
     {33, 33, SPECIES_GOLBAT},
-    {35, 35, SPECIES_SOLROCK},
+    {35, 35, SPECIES_LUNATONE},
     {33, 33, SPECIES_SOLROCK},
-    {37, 37, SPECIES_SOLROCK},
+    {37, 37, SPECIES_LUNATONE},
     {35, 35, SPECIES_GOLBAT},
     {39, 39, SPECIES_SOLROCK},
     {38, 38, SPECIES_GOLBAT},
@@ -2269,7 +2269,7 @@ const struct WildPokemon gMeteorFalls_B1F_1R_WaterMons[] =
     {30, 35, SPECIES_GOLBAT},
     {30, 35, SPECIES_GOLBAT},
     {25, 35, SPECIES_SOLROCK},
-    {15, 25, SPECIES_SOLROCK},
+    {15, 25, SPECIES_LUNATONE},
     {5, 15, SPECIES_SOLROCK},
 };
 
@@ -3227,9 +3227,9 @@ const struct WildPokemon gMeteorFalls_StevensCave_LandMons[] =
     {33, 33, SPECIES_GOLBAT},
     {35, 35, SPECIES_GOLBAT},
     {33, 33, SPECIES_GOLBAT},
-    {35, 35, SPECIES_SOLROCK},
+    {35, 35, SPECIES_LUNATONE},
     {33, 33, SPECIES_SOLROCK},
-    {37, 37, SPECIES_SOLROCK},
+    {37, 37, SPECIES_LUNATONE},
     {35, 35, SPECIES_GOLBAT},
     {39, 39, SPECIES_SOLROCK},
     {38, 38, SPECIES_GOLBAT},
